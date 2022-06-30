@@ -13,6 +13,7 @@
     document.querySelector(".list").innerHTML += data[data.length-1];
     document.querySelector(".b").addEventListener("click",() => {
         data.push(document.querySelector(".nama").value)
+        document.querySelector(".list").innerHTML += ", " + data[data.length-1];
     });
 
 </script>
