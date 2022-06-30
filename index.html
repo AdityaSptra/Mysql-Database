@@ -1,19 +1,8 @@
 <html>
-<head>  
-    <title>Document</title>
-</head>
+<head></head>
 <body>
     <p class="list"> Lits : </p>
     Nama : <input type="text" class="nama">
     <button class="b"> Kirim </button>
 </body>
-<script>
-
-    let data = ["Aditya"];
-    document.querySelector(".list").innerHTML += data[data.length-1];
-    document.querySelector(".b").addEventListener("click",() => {
-        data.push(document.querySelector(".nama").value)
-    });
-
-</script>
 </html>
