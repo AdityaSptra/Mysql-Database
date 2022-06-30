@@ -6,4 +6,14 @@
     <button class="b"> Kirim </button>
   </body>
   <script src="script.js"></script>
+  <script>
+    
+    let data = ["Aditya"];
+    document.querySelector(".list").innerHTML +=  data[data.length-1];
+    document.querySelector(".b").addEventListener("click",() => {
+      data.pus(document.querySelector(".nama").value);
+      document.querySelector(".list").innerHTML +=  data[data.length-1];
+    });
+    
+  </script>
 </html>
